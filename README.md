@@ -4,19 +4,19 @@ The provided code is an example of a dynamic web page that showcases products an
 
 
 
-HTML
+## HTML
 
  The HTML structure defines the layout of the page. It includes a header with a logo, navigation menu, and a search bar. The main content area displays a background slideshow, promotional content with a call-to-action button, and an arrow that links to a shopping cart. The mid section introduces new products.
 
 
 
-CSS
+## CSS
 
 The CSS code styles the page elements, including the header, navigation menu, filters, product listings, and shopping cart. It defines the layout, fonts, colors, and animations for various components.
 
 
 
-JavaScript (scripts.js)
+## JavaScript (scripts.js)
 
   - The script fetches product data from a dummy API.
 
@@ -34,13 +34,13 @@ JavaScript (scripts.js)
 
   
 
-JavaScript (inline script) 
+## JavaScript (inline script) 
 
 The inline script in the HTML file fetches the Font Awesome icon library and sets up a background image slideshow that cycles through different images.
 
 
 
-Tailwind CSS 
+## Tailwind CSS 
 
 The web page uses the Tailwind CSS framework to style some components and apply responsive design principles.
 
