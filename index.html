@@ -38,3 +38,41 @@
             </a>
         </div>
     </section>
+    
+    <main>
+      <div class="filters">
+        <h2>Filters</h2>
+        <label for="priceFilter">Price:</label>
+        <select id="priceFilter" onchange="applyFilters()">
+          <option value="">All</option>
+          <option value="low">Low to High</option>
+          <option value="high">High to Low</option>
+        </select>
+        <label for="categoryFilter">Category:</label>
+        <select id="categoryFilter" onchange="applyFilters()">
+          <option value="">All</option>
+          <!-- Categories will be added with JavaScript -->
+        </select>
+        <label for="brandFilter">Brand:</label>
+        <select id="brandFilter" onchange="applyFilters()">
+          <option value="">All</option>
+          <!-- Brands will be added with JavaScript -->
+        </select>
+        <button onclick="clearFilters()">Clear Filters</button>
+      </div>
+      <div class="products" id="products">
+        <!-- Product listing will be added with JavaScript -->
+      </div>
+    </main>
+    <aside class="cart" id="cart">
+      <h2>Shopping Cart</h2>
+      <div class="cart-items">
+        <!-- Shopping cart items will be added with JavaScript -->
+      </div>
+      <div class="cart-summary">
+        <p>Total Cost: $<span id="totalCost">0.00</span></p>
+        <button onclick="checkout()">Checkout</button>
+      </div>
+    </aside>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+    <script src="scripts.js"></script>
