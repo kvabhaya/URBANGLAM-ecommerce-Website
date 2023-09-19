@@ -2,6 +2,7 @@
 
 The provided code is an example of a dynamic web page that showcases products and provides filtering, cart functionality, and search features. Here's a simplified description of the key components and functionality:
 
+![screencapture-file-G-Projects-Web-Development-Web-Dev-Projects-Urbanglam-ecommerce-index-html-2023-09-19-21_56_58](https://github.com/kvabhaya/URBANGLAM-ecommerce-Website/assets/94110759/f9f64707-1f95-43e5-a3e4-b8d6a808520c)
 
 
 ## HTML
